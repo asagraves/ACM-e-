@@ -10,6 +10,7 @@
 	      // console.log("dog_brands",dog_brands);
 	      for (item in dog_brands) {
 	      	console.log("brand name",dog_brands[item].name);
+	      	$(".dogbrands").append(dog_brands[item].name);
 	      	// console.log("brand types",dog_brands[item].types);
 	      	var types = dog_brands[item].types;
 	      	for (item in types) {
