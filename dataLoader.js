@@ -21,7 +21,7 @@ $(document).ready(function() {
     				for (item in volumes) {
     					console.log("volume",volumes[item].name);
     					console.log("price",volumes[item].price);
-    					$(".dogbrands").append("<li>Size: "+volumes[item].name+": $"+volumes[item].price+"</li>");
+    					$(".dogbrands").append("<div>Size: "+volumes[item].name+": $"+volumes[item].price+"</div>");
     					
     				}
 	      	}
@@ -56,7 +56,7 @@ $(document).ready(function() {
     				for (item in volumes) {
     					console.log("volume",volumes[item].name);
     					console.log("price",volumes[item].price);
-    					$(".catbrands").append("<li>Size: "+volumes[item].name+": $"+volumes[item].price+"</li>");
+    					$(".catbrands").append("<div>Size: "+volumes[item].name+": $"+volumes[item].price+"</div>");
     					
     				}
 	      	}
