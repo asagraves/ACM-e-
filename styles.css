@@ -1,8 +1,16 @@
+@font-face {
+    font-family: CatFont;
+    src: url(CatFont.tff);
+}
+
 body {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
 
+h1 {
+  font-family: CatFont;
+}
 
 
